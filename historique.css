@@ -1,0 +1,185 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Avenir, sans-serif;
+}
+
+nav{
+    width: 100%;
+    margin: 0 auto;
+    background-color: RGB(25,0,57);
+    position: sticky;
+    top: 0px;
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+nav ul li{
+    float: left;
+    width: 15%;
+    text-align: center;
+    position: relative;
+}
+
+nav ul::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+nav a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    border-bottom: 2px solid transparent;
+    padding: 10px 0px;
+}
+
+nav a:hover{
+    color: cyan;
+    border-bottom: 2px solid cyan;
+}
+
+.sous{
+    display: none;
+    box-shadow: 0px 1px 2px #CCC;
+    background-color: RGB(68,0,158);
+    position: absolute;
+    width: 100%;
+    z-index: 1000;
+}
+
+nav > ul li:hover .sous{
+    display: block;
+}
+
+.sous li{
+    float: none;
+    width: 100%;
+    text-align: left;
+}
+
+.sous a{
+    padding: 10px;
+    border-bottom: none;
+}
+
+.sous a:hover{
+    border-bottom: none;
+    background-color: RGBa(200,200,200,0.1);
+}
+
+.deroulant > a::after{
+    content:" ▼";
+    font-size: 12px;
+}
+
+
+.conteneur{
+  margin: 50px 10%;
+  height: 1500px;
+}
+
+.recherche{
+            height : 50px;
+            width: 250px;
+            font-size: 30px;
+            color: RGB(25,0,57);
+            font-weight: bold;
+        }
+footer {
+            background-color: RGB(214,183,255);
+            color: white;
+            padding: 15px;
+        }
+
+.ensemble.content {height: 100px}
+    
+
+.sidenav {
+            padding-top: 20px;
+            background-color: #f1f1f1;
+            height: 100%;
+        }
+
+  /* css activits sportive*/
+  .flex {
+    display: flex;
+}
+
+.acti {
+    font-size: 20px;
+    color: #fa8231;
+    font-weight: 900;
+    text-align: center;
+    margin: 0px 0px 0px 20px;
+}
+
+.act {
+    font-weight: 900;
+    margin: 0px 0px 0px 50px;
+}
+
+.part {
+    display: flex;
+    margin: 50px 250px 50px -80px;
+    padding: 0px 110px;
+}
+
+.part1 {
+    padding: 0px 30px 0px 0px;
+}
+
+
+  /***********/      
+  /* cv des coachs activités */
+.photo{
+    text-align: center;
+}
+.photo img{
+    width:  150px;
+    height: 150px;
+    border:  3px solid #fff;
+    box-shadow:  0px 0px 10px #777;
+    border-radius:  50%;
+  
+}
+section{
+    display:  flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    width: 100%;
+    padding-bottom: 20px;
+    margin:  20px auto;
+    box-shadow:  0px 0px 10px #bbb;
+    background-color: #fff;
+}
+
+section h2{
+    margin : 20px 0;
+    width:  90%;
+}
+section >div {
+    width 90%
+}
+
+
+
+
+.contact {
+    width:  450px;
+    height: 150px;
+    
+}
+.contact-flex{
+    display:  flex;
+    flex-flow: row wrap;
+    align-items;
+}
+
+.imageetudiant{
+    
+    border-radius: 60px;
+}
